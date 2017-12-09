@@ -90,6 +90,7 @@ a:hover, a:active, a:visited, a{
 #work .inner img{
   border-radius: 10%;
   margin: 20px;
+  margin: auto;
 }
 #work .inner{
   text-align: center;
@@ -108,4 +109,27 @@ a:hover, a:active, a:visited, a{
 }
 #contact form{
   margin-left: 75px;
+}
+#about .rise{
+  text-align: center;
+}
+#work .carousel{
+  background-color: #000;
+  min-width: 1087px;
+  min-height: 500px;
+  margin: 0 auto;
+}
+#work .links{
+  max-width: 1075px;
+  margin: 20px auto;
+}
+#work .links h2{
+  color: #e3835d;
+}
+#inspiration .inner{
+  text-align: center;
+}
+#inspiration .inner img{
+  margin: 20px;
+  width: 100%;
 }
