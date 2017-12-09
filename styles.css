@@ -94,3 +94,18 @@ a:hover, a:active, a:visited, a{
 #work .inner{
   text-align: center;
 }
+#services h2{
+  color: #e3835d;
+}
+#about .m35{
+  margin-top: 35px;
+}
+#about .img-right{
+  width: 100%;
+}
+#work .inner{
+  text-align: center;
+}
+#contact form{
+  margin-left: 75px;
+}
