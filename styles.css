@@ -123,8 +123,11 @@ a:hover, a:active, a:visited, a{
   max-width: 1075px;
   margin: 20px auto;
 }
-#work .links h2{
+#work h3{
   color: #e3835d;
+}
+#work p a{
+  color: #000;
 }
 #inspiration .inner{
   text-align: center;
@@ -132,4 +135,7 @@ a:hover, a:active, a:visited, a{
 #inspiration .inner img{
   margin: 20px;
   width: 100%;
+}
+.center{
+  text-align: center
 }
