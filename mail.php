@@ -14,7 +14,6 @@ if(isset($_POST['email'])) {
         die();
     }
 
-
     // validation expected data exists
     if(!isset($_POST['first_name']) ||
         !isset($_POST['last_name']) ||
@@ -23,8 +22,6 @@ if(isset($_POST['email'])) {
         !isset($_POST['comments'])) {
         died('We are sorry, but there appears to be a problem with the form you submitted.');
     }
-
-
 
     $first_name = $_POST['first_name']; // required
     $last_name = $_POST['last_name']; // required
@@ -65,8 +62,6 @@ if(isset($_POST['email'])) {
       return str_replace($bad,"",$string);
     }
 
-
-
     $email_message .= "First Name: ".clean_string($first_name)."\n";
     $email_message .= "Last Name: ".clean_string($last_name)."\n";
     $email_message .= "Email: ".clean_string($email_from)."\n";
@@ -77,7 +72,7 @@ if(isset($_POST['email'])) {
 $headers = 'From: '.$email_from."\r\n".
 'Reply-To: '.$email_from."\r\n" .
 'X-Mailer: PHP/' . phpversion();
-@mail($email_to, $email_subject, $email_message, $headers);
+mail($email_to, $email_subject, $email_message, $headers);
 ?>
 
 <!-- include your own success html here -->
