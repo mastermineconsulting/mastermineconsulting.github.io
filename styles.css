@@ -140,5 +140,9 @@ a:hover, a:active, a:visited, a{
   text-align: center
 }
 .hoverund:hover, .hoverund:active{
-  border-bottom: 3px solid #e3835d;
+  border-bottom: 2px solid #e3835d;
+}
+.i4-img{
+    width: 100%;
+    margin-top:25px;
 }
